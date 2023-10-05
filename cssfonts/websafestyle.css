@@ -8,16 +8,11 @@
     }
     .b {
         background-color: rgb(122, 202, 65);
-        margin: 20px;
         width: 150px;
-        height: 80px;
-        padding: 20px;
         font-family: 'Courier New', Courier, monospace;
     }
     .c {
         background-color: rgb(122, 202, 65);
-        margin: 20px;
         width: 150px;
-        height: 80px;
         font-family:'Times New Roman', Times, serif;
     } 
