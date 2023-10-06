@@ -24,3 +24,6 @@ body {
     font-weight: bold;
     background-color: rgb(122, 202, 65);
 }
+#shadow {
+    box-shadow: 5px 10px black;
+}
