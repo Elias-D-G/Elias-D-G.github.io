@@ -13,4 +13,17 @@ body {
 .a,.b,.c {
     background-color: crimson;
     width: 300px;
+    box-shadow: 5px 10px black;
+}
+.lighter {
+    font-weight: lighter;
+    background-color: crimson;
+}
+.bold {
+    font-weight: bold;
+    background-color: crimson;
+}
+.bolder {
+    font-weight: bolder;
+    background-color: crimson;
 }
