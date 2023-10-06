@@ -1,21 +1,25 @@
-*{
+* {
     background-color: rgb(239, 254, 221);
-    }
-    .a {
-        background-color: rgb(122, 202, 65);
-        width: 300px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .b {
-        background-color: rgb(122, 202, 65);
-        width: 300px;
-        font-family: 'Courier New', Courier, monospace;
-    }
-    .c {
-        background-color: rgb(122, 202, 65);
-        width: 300px;
-        font-family:'Times New Roman', Times, serif;
-    } 
+}
+
+.a {
+    background-color: rgb(122, 202, 65);
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.b {
+    background-color: rgb(122, 202, 65);
+    width: 300px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.c {
+    background-color: rgb(122, 202, 65);
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .tjock {
     font-weight: bold;
 }
