@@ -6,24 +6,24 @@ body {
     background-color: rgb(122, 202, 65);
     width: 300px;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 10px black;
 }
 
 .b {
     background-color: rgb(122, 202, 65);
     width: 300px;
     font-family: 'Courier New', Courier, monospace;
+    box-shadow: 5px 10px black;
 }
 
 .c {
     background-color: rgb(122, 202, 65);
     width: 300px;
     font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px 10px black;
 }
 
 .tjock {
     font-weight: bold;
     background-color: rgb(122, 202, 65);
-}
-.shadow {
-    box-shadow: 5px 10px black;
 }
