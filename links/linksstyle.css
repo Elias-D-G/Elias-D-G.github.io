@@ -1,8 +1,7 @@
 body {
     background-color: #DEFF9C;
-    font-family: 'Courier New', Courier, monospace;
-
 }
 a {
-font-size: 1em; 
+font-size: 1em;
+font-family: 'Courier New', Courier, monospace;
 }
