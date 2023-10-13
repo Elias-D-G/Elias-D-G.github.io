@@ -1,0 +1,30 @@
+h3 {
+    text-decoration-color: red;
+}
+body {
+    background-color: darkgreen;
+}
+
+h2{
+    color: red;
+}
+div{
+    border: 5px solid white;
+    border-radius: 15px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    outline: none;
+    text-decoration: none;
+    margin: 10px;
+    vertical-align: center;
+    color: white;
+    background-color: green;
+}
+div:hover{
+    border: 4px dotted lightskyblue;
+    
+}
+div:focus{
+    background-color: lightblue;
+}
