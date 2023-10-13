@@ -18,8 +18,8 @@ div{
     background-color: green;
 }
 div:hover{
-    border: 4px dotted lightskyblue;
+    border: 4px dotted darkblue;
 }
 div:focus{
-    background-color: lightblue;
+    background-color: brown;
 }
