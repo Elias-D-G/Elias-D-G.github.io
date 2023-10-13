@@ -19,7 +19,6 @@ div{
 }
 div:hover{
     border: 4px dotted lightskyblue;
-    
 }
 div:focus{
     background-color: lightblue;
