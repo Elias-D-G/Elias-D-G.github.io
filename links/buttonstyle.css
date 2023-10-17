@@ -10,14 +10,14 @@ div {
     background-color: grey;
 }
 .a {
-border-left: ridge red;
+border-left: 10px ridge red;
 }
 .b{
-border-left:ridge yellow;
+border-left: 10px ridge yellow;
 }
 .c{
-border-left:ridge blue;
+border-left: 10px ridge blue;
 }
 .d{
-border-left:ridge green;
+border-left: 10px ridge green;
 }
