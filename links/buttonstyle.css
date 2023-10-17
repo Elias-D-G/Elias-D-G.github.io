@@ -22,3 +22,6 @@ border-left: 10px ridge blue;
 .d{
 border-left: 10px ridge green;
 }
+div:hover{
+    background-color: blanchedalmond;
+}
