@@ -2,10 +2,22 @@ body {
     background-color: greenyellow;
 }
 div {
-    width:500px;
+    width:100px;
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
     text-align: center;
     background-color: grey;
+}
+.a {
+border-left: red;
+}
+.b{
+
+}
+.c{
+
+}
+.d{
+
 }
