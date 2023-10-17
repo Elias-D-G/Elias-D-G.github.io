@@ -8,7 +8,8 @@ div {
     border: 2px solid black;
     border-radius: 10px;
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: grey;
+    color: blanchedalmond;
 }
 .a {
 border-left: 10px ridge red;
@@ -23,5 +24,6 @@ border-left: 10px ridge blue;
 border-left: 10px ridge green;
 }
 div:hover{
-    background-color: grey;
+    background-color: blanchedalmond;
+    color: black;
 }
