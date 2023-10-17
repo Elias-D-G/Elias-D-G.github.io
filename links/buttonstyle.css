@@ -2,8 +2,9 @@ body {
     background-color: greenyellow;
 }
 div {
-    width:50px;
+    width:500px;
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
+    text-align: center;
 }
