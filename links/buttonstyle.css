@@ -2,7 +2,7 @@ body {
     background-color: greenyellow;
 }
 div {
-    width:100px;
+    width:150px;
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
@@ -10,14 +10,14 @@ div {
     background-color: grey;
 }
 .a {
-border-left: red;
+border-left: ridge red;
 }
 .b{
-border-left: yellow;
+border-left:ridge yellow;
 }
 .c{
-border-left: blue;
+border-left:ridge blue;
 }
 .d{
-border-left: green;
+border-left:ridge green;
 }
