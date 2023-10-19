@@ -6,3 +6,12 @@ figcaption {
     float: left;
     font: italic;
 }
+.a{
+    box-shadow: red;
+}
+.b{
+    box-shadow: green;
+}
+.c{
+    box-shadow: blue;
+}
