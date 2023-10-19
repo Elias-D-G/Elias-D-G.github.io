@@ -1,3 +1,8 @@
 body{
-    background-color: chartreuse;
+    background-color: yellowgreen;
+}
+figcaption {
+    background-color: yellowgreen;
+    float: left;
+    font: italic;
 }
