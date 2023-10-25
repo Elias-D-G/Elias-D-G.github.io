@@ -1,3 +1,14 @@
 body {
     background-color: greenyellow;
 }
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+table {
+    background-color: greenyellow;
+    box-shadow: black;
+    border: blue;
+}
