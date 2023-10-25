@@ -12,8 +12,7 @@ table {
     border: 2px solid blue;
 }
 th {
-    width: auto;
-    height: auto;
+    width: 30px;
+    height: 20px;
     border-spacing: 10px;
-
 }
