@@ -12,6 +12,7 @@ table {
     border: 2px solid blue;
 }
 th {
+    border: 1px solid;
     width: 30px;
     height: 20px;
     padding: 5px;
