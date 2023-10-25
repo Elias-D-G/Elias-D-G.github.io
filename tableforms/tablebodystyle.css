@@ -15,6 +15,6 @@ th {
     border: 1px solid;
     width: 30px;
     height: 20px;
-    padding: 5px;
     border-spacing: 10px;
+    text-align: center;
 }
