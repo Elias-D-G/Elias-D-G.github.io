@@ -9,7 +9,7 @@ body {
 }
 table {
     box-shadow: 10px, 5px,black;
-    border: blue;
+    border: 2px solid blue;
 }
 th {
     width: auto;
