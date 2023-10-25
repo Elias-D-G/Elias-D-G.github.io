@@ -14,5 +14,6 @@ table {
 th {
     width: 30px;
     height: 20px;
+    padding: 5px;
     border-spacing: 10px;
 }
