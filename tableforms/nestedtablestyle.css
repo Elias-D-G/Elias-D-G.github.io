@@ -12,6 +12,7 @@ body {
 }
 td {
     border: solid 1px;
+    border-collapse: collapse;
 }
 table {
     box-shadow: 10px, 5px,black;
@@ -24,4 +25,5 @@ th {
     height: 20px;
     border-spacing: 10px;
     text-align: center;
+    border-collapse: collapse;
 }
