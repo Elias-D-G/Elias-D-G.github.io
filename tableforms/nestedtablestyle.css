@@ -10,6 +10,10 @@ body {
 .orange {
     color: orange;
 }
+td {
+    border: solid 1px;
+    border-collapse: collapse;
+}
 table {
     box-shadow: 10px, 5px,black;
     border: 2px solid blue;
