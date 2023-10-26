@@ -19,11 +19,3 @@ table {
     border: 2px solid blue;
     border-collapse: collapse;
 }
-th {
-    border: 1px solid;
-    width: 30px;
-    height: 20px;
-    border-spacing: 10px;
-    text-align: center;
-    border-collapse: collapse;
-}
