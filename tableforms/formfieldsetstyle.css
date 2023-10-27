@@ -1,3 +1,7 @@
 body {
     background-color: greenyellow;
 }
+legend {
+    background-color: yellow;
+    color: darkgreen;
+}
