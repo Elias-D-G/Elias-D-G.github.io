@@ -8,15 +8,16 @@
 <body>
     <script>
         var text="Hej jag heter Elias";
-        for(var i=0;i<text.length;i++)
+        for(var i=0;i<text.length-1;i++)
         {
             document.write(text.substring(i,i+1)+"-");
         }
         var text="Hej jag heter Elias";
-        while(i<15)
+        var j=0;
+        while(j<text.length-1)
         {
-            document.write(text.substring(i,i+1)+"-");
-            i++;
+            document.write(text.substring(j,j+1)+"-");
+            j++;
         }
     </script>
 </body>
