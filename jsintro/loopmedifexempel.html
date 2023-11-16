@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <label for="c">skriv nummer > 0</label>
     <input type="number" id="c" onchange="g()">
+    <div id="r"></div>
     <script>
-     function g(){
-     var e=getElementById("c").value;
-     } 
+        var res = document.querySelector("#r")
+        function g() {
+            var e = document.getElementById("c").value;
+            if (e > 0) {
+                var k = 0;
+                for (let i = 1; i <= e; i++) {
+                    // if e is 3 then add 1+2+3=6 and output it
+                    k = k + i;
+                }
+                document.getElementById("r").innerHTML = "summa " + k;
+
+            } else {
+                res.innerHTML = "error"
+            }
+            var j = 0;
+            var sum = 0;
+            while (j <= e) {
+                sum += j
+                j++;
+            }
+            document.getElementById("r").innerHTML += "summa " + sum;
+        } 
     </script>
 </body>
+
 </html>
