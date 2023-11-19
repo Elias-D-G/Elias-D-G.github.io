@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="formfieldsetstyle.css">
 </head>
+
 <body>
     <h1>Form with fieldset</h1>
     <form>
         <fieldset>
             <legend>Login</legend>
-            <form><label for="Username">Username: </label> 
-        <input type="text" name="Username" id="Username" required> <br>
-        <label for="password">Password: </label> 
-        <input type="password" name="password"  id="password" required> <br>
+            <form><label for="Username">Username: </label>
+                <input type="text" name="Username" id="Username" required> <br>
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password" required> <br>
         </fieldset>
         <fieldset>
             <legend>Gender*</legend>
             <input type="radio" id="male" name="gender" value="M" />
-    <label for="male">Male</label><br />
+            <label for="male">Male</label><br />
 
-    <input type="radio" id="Female" name="gender" value="F" />
-    <label for="Female">Female</label><br />
+            <input type="radio" id="Female" name="gender" value="F" />
+            <label for="Female">Female</label><br />
 
-    <input type="radio" id="other" name="gender" value="O" />
-    <label for="other">other</label>
+            <input type="radio" id="other" name="gender" value="O" />
+            <label for="other">other</label>
         </fieldset>
         <fieldset>
-            
+            <legend>Programming skill</legend>
+            <input type="checkbox" id="java" name="code" value="J">
+            <label for="java">Java</label>
+            <input type="checkbox" id="c++" name="code" value="C++">
+            <label for="c++">C++</label>
+            <input type="checkbox" id="C#" name="code" value="C#">
+            <label for="C#">C#</label>
         </fieldset>
+        
     </form>
 </body>
+
 </html>
