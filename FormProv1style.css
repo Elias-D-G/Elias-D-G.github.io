@@ -28,3 +28,6 @@ legend{
     background-color: darkgreen;
     color: whitesmoke;
 }
+div{
+    align-self: center;
+}
