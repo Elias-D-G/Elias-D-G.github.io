@@ -23,3 +23,6 @@ form{
     width: auto;
     align-self: center;
 }
+table{
+    align-self: left;
+}
