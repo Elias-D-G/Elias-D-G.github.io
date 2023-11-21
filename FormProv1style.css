@@ -26,3 +26,7 @@ form{
 table{
     align-self: left;
 }
+legend{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
