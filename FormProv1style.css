@@ -19,3 +19,6 @@ th {
     border-spacing: 10px;
     text-align: center;
 }
+form{
+    float:left;
+}
