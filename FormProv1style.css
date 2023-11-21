@@ -19,6 +19,7 @@ th {
     border-spacing: 10px;
     text-align: center;
 }
-fieldset{
-    width: 200px;
+form{
+    width: auto;
+    align-self: center;
 }
