@@ -72,12 +72,34 @@
     </table>
 </body>
 </html>
-
-<fieldset>
-    <legend>Fruit</legend>
-    <select name="fruit" id="fruit">
-        <option value="apple">Apple</option>
-        <option value="banana">Banana</option>
-        <option value="other">Other</option>
-    </select>
-</fieldset>
+<form>
+    <fieldset>
+    <legend>Name of driver</legend>
+            <form><label for="First name">First name:* </label>
+                <input type="text" name="firstname" id="Firstname" required> <br>
+                <label for="Lastname">Last name:* </label>
+                <input type="text" name="Lastname" id="Lastname" required> <br></form>
+    </fieldset>
+    <fieldset>
+        <legend>Car*</legend>
+        <input type="radio" id="Redbull" name="Red Bull" value="R" />
+            <label for="Redbull">Red Bull</label><br />
+            <input type="radio" id="Mercedes" name="Mercedes" value="M" />
+            <label for="Mercedes">Mercedes</label><br />
+            <input type="radio" id="Ferrari" name="Ferrari" value="F" />
+            <label for="Ferrari">Ferrari</label>
+            <input type="radio" id="Aston Martin" name="Aston Martin" value="A" />
+            <label for="other">Aston Martin</label>
+            <input type="radio" id="McLaren" name="McLaren" value="McL" />
+            <label for="McLaren">McLaren</label>
+    </fieldset>
+    <fieldset>
+        <legend>Nationality</legend>
+            <select name="Nationality" id="Nationality">
+            <option value="apple">NED</option>
+            <option value="banana">MEX</option>
+            <option value="other">GBR</option>
+            <option value="other">ESP</option>
+        </select>
+    </fieldset>
+</form>
