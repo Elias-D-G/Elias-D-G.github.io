@@ -22,12 +22,12 @@ th {
 }
 form{
     width: auto;
-    vertical-align: middle;
 }
 legend{
     background-color: darkgreen;
     color: whitesmoke;
 }
 div{
-    
+    float:left;
+    padding: 100px;
 }
