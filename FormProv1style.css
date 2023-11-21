@@ -11,6 +11,7 @@ table {
     box-shadow: 10px, 5px,black;
     border: 2px solid blue;
     border-collapse: collapse;
+    align-self: left;
 }
 th {
     border: 1px solid;
@@ -22,9 +23,6 @@ th {
 form{
     width: auto;
     align-self: center;
-}
-table{
-    align-self: left;
 }
 legend{
     background-color: darkgreen;
