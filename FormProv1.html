@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="FormProv1style.css">
     <title>Prov</title>
 </head>
+
 <body>
     <h1>Formula 1</h1>
     <table>
@@ -72,36 +74,42 @@
         </tfoot>
     </table>
     <form>
-    <fieldset>
-    <legend>Name of driver</legend>
-                <label for="Firstname">First name:* </label>
-                <input type="text" name="firstname" id="Firstname" required> <br>
-                <label for="Lastname">Last name:* </label>
-                <input type="text" name="Lastname" id="Lastname" required> <br>
-    </fieldset>
-    <fieldset>
-        <legend>Car*</legend>
-        <input type="radio" id="Redbull" name="Red Bull" value="R" />
+        <fieldset>
+            <legend>Name of driver</legend>
+            <label for="Firstname">First name:* </label>
+            <input type="text" name="firstname" id="Firstname" required> <br>
+            <label for="Lastname">Last name:* </label>
+            <input type="text" name="Lastname" id="Lastname" required> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Car*</legend>
+            <input type="radio" id="Redbull" name="Car" value="R" />
             <label for="Redbull">Red Bull</label><br />
-            <input type="radio" id="Mercedes" name="Mercedes" value="M" />
+
+            <input type="radio" id="Mercedes" name="Car" value="M" />
             <label for="Mercedes">Mercedes</label><br />
-            <input type="radio" id="Ferrari" name="Ferrari" value="F" />
+
+            <input type="radio" id="Ferrari" name="Car" value="F" />
             <label for="Ferrari">Ferrari</label><br />
-            <input type="radio" id="AstonMartin" name="Aston Martin" value="A" />
+
+            <input type="radio" id="AstonMartin" name="Car" value="A" />
             <label for="AstonMartin">AstonMartin</label><br />
-            <input type="radio" id="McLaren" name="McLaren" value="McL" />
+
+            <input type="radio" id="McLaren" name="Car" value="McL" />
             <label for="McLaren">McLaren</label>
-    </fieldset>
-    <fieldset>
-        <legend>Nationality</legend>
+
+        </fieldset>
+        <fieldset>
+            <legend>Nationality</legend>
             <select name="Nationality" id="Nationality">
-            <option value="apple">NED</option>
-            <option value="banana">MEX</option>
-            <option value="other">GBR</option>
-            <option value="other">ESP</option>
-        </select>
-    </fieldset>
-    <input type="submit" value="Send">
-</form>
+                <option value="apple">NED</option>
+                <option value="banana">MEX</option>
+                <option value="other">GBR</option>
+                <option value="other">ESP</option>
+            </select>
+        </fieldset>
+        <input type="submit" value="Send">
+    </form>
 </body>
+
 </html>
