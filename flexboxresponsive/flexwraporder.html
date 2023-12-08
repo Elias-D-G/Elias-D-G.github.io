@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,34 +11,110 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-   .wrapper
-   {
-    display:flex;
-    flex-wrap: wrap;
-   }
-   @media screen and (min-width:400px){
-    .aside-1, .aside-2{
-        flex:1 0px;
-    }
-   }
-   @media screen and (min-width:800px){
-    
-   }
+
+        .wrapper {
+            padding: 5rem 6rem;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .wrapper div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            text-align: center;
+        }
+
+        .header {
+            background-color: tomato;
+            height: 30px;
+            text-align: center;
+            flex-basis: 100%;
+        }
+
+        .main {
+            background-color: lightskyblue;
+            flex-basis: 100%;
+        }
+
+        .aside-1 {
+            background-color: yellow;
+            text-align: center;
+            flex-basis: 100%;
+            min-height: 30px;
+        }
+
+        .aside-2 {
+            background-color: pink;
+            text-align: center;
+            flex-basis: 100%;
+            min-height: 30px;
+        }
+
+        .footer {
+            background-color: lightgreen;
+            min-height: 30px;
+            text-align: center;
+            flex-basis: 100%;
+        }
+
+        @media screen and (min-width: 560px) and (max-width: 900px) {
+            .aside {
+                flex-basis: 50%;
+            }
+        }
+
+        @media screen and (min-width: 900px) {
+            .wrapper {
+                display: grid;
+                grid-auto-columns: minmax(0, 1fr);
+                grid-template-areas:
+                    "a a a a"
+                    "b c c d"
+                    "e e e e"
+                ;
+            }
+
+            .header {
+                grid-area: a;
+            }
+
+            .aside-1 {
+                grid-area: b;
+            }
+
+            .main {
+                grid-area: c;
+            }
+
+            .aside-2 {
+                grid-area: d;
+            }
+
+            .footer {
+                grid-area: e;
+            }
+        }
     </style>
 </head>
+
 <body>
     <div class="wrapper">
-          <div class="header">Header</div>
-          <div class="main">
-              <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames 
-                ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, 
-                tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
-                Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p> 
-          </div> 
-          <div class="footer">Footer</div>
-          <div class="aside aside-1">Aside 1</div>
-          <div class="aside aside-2">Aside 2</div>
-         </div>
-        
+        <div class="header">Header</div>
+        <div class="main">
+            <p>
+                Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Vestibulum tortor quam,
+                feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
+                eu libero sit amet quam egestas semper. Aenean ultricies mi
+                vitae est. Mauris placerat eleifend leo.
+            </p>
+        </div>
+        <div class="footer">Footer</div>
+        <div class="aside aside-1">Aside 1</div>
+        <div class="aside aside-2">Aside 2</div>
+    </div>
 </body>
+
 </html>
