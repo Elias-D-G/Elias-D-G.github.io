@@ -13,9 +13,7 @@
         }
 
         .wrapper div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+         
             width: 100%;
             text-align: center;
         }
@@ -60,35 +58,7 @@
         }
 
         @media screen and (min-width: 900px) {
-            .wrapper {
-                display: grid;
-                grid-auto-columns: minmax(0, 1fr);
-                grid-template-areas:
-                    "a a a a"
-                    "b c c d"
-                    "e e e e"
-                ;
-            }
-
-            .header {
-                grid-area: a;
-            }
-
-            .aside-1 {
-                grid-area: b;
-            }
-
-            .main {
-                grid-area: c;
-            }
-
-            .aside-2 {
-                grid-area: d;
-            }
-
-            .footer {
-                grid-area: e;
-            }
+          
         }
     </style>
 </head>
