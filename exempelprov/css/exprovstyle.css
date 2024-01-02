@@ -4,4 +4,7 @@
 .p{
     height: 40px;
     width: 50px;
+    background-color: grey;
+    color: black;
+    box-shadow: 5px,5px greenyellow;
 }
