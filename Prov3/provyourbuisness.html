@@ -30,7 +30,37 @@
     <div>
     <img src="pic1.jpg" alt="lampa">
     <p><h1>Your Buisness On The Web</h1><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit <br>Read More</p></div>
-    <form> 
+    <form>
+        <fieldset>
+            <legend>Your Name</legend>
+            <label for="Firstname">First name:* </label>
+            <input type="text" name="firstname" id="Firstname" required> <br />
+            <label for="Lastname">Last name:* </label>
+            <input type="text" name="Lastname" id="Lastname" required>
+        </fieldset>
+        <fieldset>
+            <legend>Nationality</legend>
+            <label for="Nationality">Choose a Nationality:</label>
+            <select name="Nationality" id="Nationality">
+                <option value="Nederländerna">NED</option>
+                <option value="Mexiko">MEX</option>
+                <option value="Storbritanien">GBR</option>
+                <option value="Spaninen">ESP</option>
+            </select>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Skills</legend>
+            <input type="checkbox" id="Electrician" name="skil" value="E">
+            <label for="Electrician">Electrician</label><br />
+            <input type="checkbox" id="Baker" name="skill" value="B">
+            <label for="Baker">Baker</label><br />
+            <input type="checkbox" id="Carpenter" name="skill" value="C">
+            <label for="Carpenter">Carpenter</label>      
+        </fieldset>
+        <input type="submit" value="Send">
+     </form> 
     
 </body>
 </html>
