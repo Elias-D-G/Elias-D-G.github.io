@@ -31,9 +31,17 @@
         .r{
             float: left;
         }
-        @media screen and (max-width: 1200px) and (min-width: 650px) {}
+        @media screen and (max-width: 1200px) and (min-width: 650px) {
+            form{
+                display: none;
+            }
+        }
 
-        @media screen and (max-width: 650px) {}
+        @media screen and (max-width: 650px) {
+            form,p{
+                display: none;
+            }
+        }
     </style>
 </head>
 
@@ -53,10 +61,11 @@
     <div class="g">
         CONTACT
     </div>
-    <div>
+    <div class="k">
         <img src="pic1.jpg" alt="lampa">
         <p>
-        <h1>Your Buisness On The Web</h1><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit <br>Read More</p>
+        <h1>Your Buisness On The Web</h1><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit <br>Read More
+            </p>
     </div>
     <form class="t">
         <fieldset>
