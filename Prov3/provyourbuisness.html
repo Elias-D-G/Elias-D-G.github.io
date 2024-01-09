@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="images/x-icon" href="usaFavicon.ico">
     <title>Your Buisness</title>
     <style>
-        body{
-            background-color: rgb(24,255,153);
+        body {
+            background-color: rgb(24, 255, 153);
         }
-        fieldset{
+
+        form {
+            background-color: rgb(188, 188, 188);
+            width: 120px;
+            height: 200px;
+            padding: 10px;
+            margin: 30px;
+            align-items: center;
+        }
+
+        fieldset {
             color: blueviolet;
+            background-color: rgb(192, 182, 182);
         }
-        
+
+        legend {
+            background-color: lightgreen;
+        }
+
+        @media screen and (max-width: 1200px) and (min-width: 650px) {}
+
+        @media screen and (max-width: 650px) {}
     </style>
 </head>
+
 <body>
     <div class="f">
         HOME
@@ -32,8 +52,10 @@
         CONTACT
     </div>
     <div>
-    <img src="pic1.jpg" alt="lampa">
-    <p><h1>Your Buisness On The Web</h1><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit <br>Read More</p></div>
+        <img src="pic1.jpg" alt="lampa">
+        <p>
+        <h1>Your Buisness On The Web</h1><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit <br>Read More</p>
+    </div>
     <form>
         <fieldset>
             <legend>Your Name</legend>
@@ -47,9 +69,9 @@
             <label for="Nationality">Choose a Nationality:</label>
             <select name="Nationality" id="Nationality">
                 <option value="Nederländerna">NED</option>
-                <option value="Mexiko">MEX</option>
+                <option value="USA">USA</option>
                 <option value="Storbritanien">GBR</option>
-                <option value="Spaninen">ESP</option>
+                <option value="Sweden">SWE</option>
             </select>
         </fieldset>
     </form>
@@ -61,10 +83,11 @@
             <input type="checkbox" id="Baker" name="skill" value="B">
             <label for="Baker">Baker</label><br />
             <input type="checkbox" id="Carpenter" name="skill" value="C">
-            <label for="Carpenter">Carpenter</label>      
+            <label for="Carpenter">Carpenter</label>
         </fieldset>
         <input type="submit" value="Send">
-     </form> 
-    
+    </form>
+
 </body>
+
 </html>
